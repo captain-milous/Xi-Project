@@ -1,0 +1,33 @@
+Zpracujte vlastní originální Webovou stránku na vlastní téma. Téma by mělo být dostatečně komplexní, aby splňovalo tato kritéria:
+
+
+Frontend
+- Aplikace by měla obsahovat alespoň 4 stránky, přičemž by měla být zajištěna patřičná navigace, včetně indikátoru, na které stránce se nachází uživatel
+- Aplikace by měla obsahovat libovolné logo / obrázek včetně názvu aplikace na každé stránce
+- Stránka by měla být rozumně nadesignována:
+- Měl by být použita knihovna na CSS  - Bootstrap nebo jiná libovolná knihovna (případně čísté CSS, ale musí být uděláno dobře a responzivně)
+- Design musí být nutně responzivní - neresponzivní stránky se hodnotí známkou dolů
+- Na stránce musí být footer s autorem stránky
+- Stránka musí smysluplná - musí obsahovat patřičné texty, odkazy, obrázky, funkčnosti
+- Stránka musí využívat knihovnu jQuery - nutné jsou minimálně Animace a Eventy
+- Stránka musí využívat alespoň jedno smysluplné volání API (libovolné, klidně i vlastní) s použitím JavaScriptových tříd - volání můžete implementovat libovolným způsobem
+- Na stránce musí být rozumně využita localStorage
+
+Backend
+- Stránka musí mít implementováno jednoduché přihlášení a registraci pomocí PHP 
+- Data by se musí ukládat bezpečně do databáze
+- Musí být implementována SESSION
+- V případě 3 špatných zadání hesla se do souboru na logování zapíší všechny informace o tom, že se někdo snaží přihlásit na daný účet
+
+Obecné
+- Aplikace bude uložena v GitHub repository s normálním názvem
+- Nutností je alespoň 10 rozumných commitů a alespoň 1 branch, která se později mergne do masteru
+- Do repository zpracujte krátké README, které bude obsahovat stručné informace o projektu
+	- Název
+	- Funkce webové stránky
+	- Použité technologie
+	- Jak nainstalovat a spustit
+- Odevzdávejte pouze odkaz na repository
+- Projekty budete prezentovat na cvičení (5-6 minut na prezentaci) - Bez prezentace nelze hodnotit 
+
+Středa, 29. března 2023, 20.41
