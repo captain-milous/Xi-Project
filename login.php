@@ -17,32 +17,40 @@
         <div class="card bg-dark text-white" style="border-radius: 1rem;">
           <div class="card-body p-5 text-center">
 
-            <div class="mb-md-3 mt-md-3 pb-5">
+            <div class="mb-md-1 mt-md-3 pb-5">
 
-              <h2 class="fw-bold mb-1 text-uppercase">Login</h2>
-              <p class="text-white-50 mb-5">Please enter your login and password!</p>
+              <h2 class="fw-bold mb-1 text-uppercase">Přihlášení</h2>
+              <p class="text-white-50 mb-5">Zadejte své přihlašovací údaje pro přihlášení!</p>
 
               <div class="form-outline form-white mb-2">
-                <input type="email" id="typeEmailX" class="form-control form-control-lg" />
+                <input type="email" id="typeEmailX" class="form-control form-control" />
                 <label class="form-label" for="typeEmailX">Email</label>
               </div>
 
               <div class="form-outline form-white mb-2">
-                <input type="password" id="typePasswordX" class="form-control form-control-lg" />
-                <label class="form-label" for="typePasswordX">Password</label>
+                <input type="password" id="typePasswordX" class="form-control form-control" />
+                <label class="form-label" for="typePasswordX">Heslo</label>
               </div>
 
-              <p class="small mb-3 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
+              <p class="small mb-3 pb-lg-2"><a class="text-white-50" href="#!">Zapomněli jste heslo?</a></p>
 
-              <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+              <button class="btn btn-outline-light btn px-5" type="submit">Přihlásit se</button>
               
             </div>
 
             <div>
-              <p class="mb-0">Don't have an account? <a href="register.php" class="text-white-50 fw-bold">Sign Up</a>
+              <p class="mb-0">Nemáte účet? <a href="register.php" class="text-white-50 fw-bold">Zaregistrujte se</a>
               </p>
             </div>
 
+            <br>
+
+            <div>
+              <p class="mb-0"><a href="index.php" class="text-white text-decoration-none">Zpět na hlavní stránku!</a>
+              </p>
+            </div>
+
+            <br>
             <br>
             <a href="https://github.com/captain-milous/Xi-Project" class="text-white em text-decoration-none">Copyright © Miloš Tesař C3b, 2023</a>
 
