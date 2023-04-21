@@ -9,39 +9,49 @@
 
 </head>
 <body class="font-weight-bolder">
-<!-- Header -->
-  <div class="p-3 fixed-top text-bg-dark">
-    <div class="container">
 
-      <header class="d-flex flex-wrap justify-content-center ">
-        <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-          <span class="fs-4 text-white">Obchůdek</span>
-        </a>
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="index.php" class="nav-link px-2 text-white">Hlavní stránka</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">O nás</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Kontakt</a></li>
-          <li class="nav-item"><a href="login.php" class="nav-link px-2 text-secondary" aria-current="page">Přihlášení</a></li>
-        </ul>
-      </header>
+<section class="vh-100 gradient-custom">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-6 col-lg-6 col-xl-5">
+        <div class="card bg-dark text-white" style="border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
 
+            <div class="mb-md-3 mt-md-3 pb-5">
+
+              <h2 class="fw-bold mb-1 text-uppercase">Login</h2>
+              <p class="text-white-50 mb-5">Please enter your login and password!</p>
+
+              <div class="form-outline form-white mb-2">
+                <input type="email" id="typeEmailX" class="form-control form-control-lg" />
+                <label class="form-label" for="typeEmailX">Email</label>
+              </div>
+
+              <div class="form-outline form-white mb-2">
+                <input type="password" id="typePasswordX" class="form-control form-control-lg" />
+                <label class="form-label" for="typePasswordX">Password</label>
+              </div>
+
+              <p class="small mb-3 pb-lg-2"><a class="text-white-50" href="#!">Forgot password?</a></p>
+
+              <button class="btn btn-outline-light btn-lg px-5" type="submit">Login</button>
+              
+            </div>
+
+            <div>
+              <p class="mb-0">Don't have an account? <a href="register.php" class="text-white-50 fw-bold">Sign Up</a>
+              </p>
+            </div>
+
+            <br>
+            <a href="https://github.com/captain-milous/Xi-Project" class="text-white em text-decoration-none">Copyright © Miloš Tesař C3b, 2023</a>
+
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-<br>
-<br>
-
-
-<!-- Footer -->
-<br>
-<br>
-<br>
-<br>
-
-  <div class="fixed-bottom container-fluid p-1 bg-dark">
-    <footer class="my-4 align-items-center text-center">
-      <a href="https://github.com/captain-milous/Xi-Project" class="text-white em text-decoration-none">Copyright © Miloš Tesař C3b, 2023</a>
-    </footer>
-  </div>
+</section>
 
 </body>
 </html>
