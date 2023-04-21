@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-  
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Xi Project</title>
@@ -18,10 +18,10 @@
           <span class="fs-4 text-white">Obchůdek</span>
         </a>
         <ul class="nav nav-pills">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-secondary" aria-current="page">Hlavní stránka</a></li>
+          <li class="nav-item"><a href="index.php" class="nav-link px-2 text-secondary" aria-current="page">Hlavní stránka</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-white">O nás</a></li>
           <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Kontakt</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Přihlášení</a></li>
+          <li class="nav-item"><a href="login.php" class="nav-link px-2 text-white">Přihlášení</a></li>
         </ul>
       </header>
 
@@ -39,7 +39,7 @@
 <br>
 <br>
 
-  <div class="container-fluid p-2 bg-dark">
+  <div class="fixed-bottom container-fluid p-1 bg-dark">
     <footer class="my-4 align-items-center text-center">
       <a href="https://github.com/captain-milous/Xi-Project" class="text-white em text-decoration-none">Copyright © Miloš Tesař C3b, 2023</a>
     </footer>
