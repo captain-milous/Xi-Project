@@ -21,7 +21,8 @@
           <li class="nav-item"><a href="index.php" class="nav-link px-2 text-secondary" aria-current="page">Hlavní stránka</a></li>
           <li class="nav-item"><a href="about-us.php" class="nav-link px-2 text-white">O nás</a></li>
           <li class="nav-item"><a href="contact.php" class="nav-link px-2 text-white">Kontakt</a></li>
-          <li class="nav-item"><a href="login.php" class="nav-link px-2 text-white">Přihlášení</a></li>
+          <li class="nav-item" id="login"><a href="login.php" class="nav-link px-2 text-white">Přihlášení</a></li>
+          <li class="nav-item" id="logout" style="display: none;"><a href="index.php" class="nav-link px-2 text-white">Odhlásit se</a></li>
         </ul>
       </header>
 
