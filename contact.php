@@ -5,8 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Xi Project</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="images/black-logo.png">
 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="Styles/original.css">
+  
 </head>
 <body class="font-weight-bolder">
 <!-- Header -->
@@ -15,7 +18,7 @@
 
       <header class="d-flex flex-wrap justify-content-center ">
         <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-          <span class="fs-4 text-white">Obchůdek</span>
+          <span class="fs-4 text-white"><img src="images/white-logo.png" class="logo">Kontakt</span>
         </a>
         <ul class="nav nav-pills">
           <li class="nav-item"><a href="index.php" class="nav-link px-2 text-white">Hlavní stránka</a></li>

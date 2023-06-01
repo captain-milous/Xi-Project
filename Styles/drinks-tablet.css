@@ -1,9 +1,14 @@
 /* CSS Document */
-@media (min-width: 801px) {
+@media (min-width: 1200px) {
 
     #drinks-container {
         margin: 150px;
         margin-top: 0px;
+    }
+
+    .drink-card {
+        width: 50%;
+        max-width: 550px;
     }
 
 

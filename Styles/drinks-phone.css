@@ -1,7 +1,10 @@
 /* CSS Document */
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
 
-    
+    .drink-card {
+        width: 100%;
+        max-width: 800px;
+    }
 
 
 }
