@@ -30,7 +30,19 @@
 <br>
 <br>
 
+<!-- Content -->
 
+<br>
+<br>
+<br>
+
+  <div id="drinks-container">
+    <!-- Placeholder for drinks -->
+  </div>
+
+  <div id="drink-details">
+    <!-- Placeholder for drink details -->
+  </div>
 
 
 <!-- Footer -->
