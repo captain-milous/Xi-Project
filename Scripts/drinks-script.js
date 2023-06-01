@@ -4,7 +4,7 @@ $(document).ready(function() {
 		// Create drink cards
 		var drinks = data.drinks.slice(0, 100);
 		var drinkCards = drinks.map(function(drink) {
-			return "<div class='drink-card' data-id='" + drink.idDrink + "'><img src='" + drink.strDrinkThumb + "'><p>" + drink.strDrink + "</p></div>";
+			return "<div class='drink-card' data-id='" + drink.idDrink + "'><h4><strong>" + drink.strDrink + "</strong></h4><img src='" + drink.strDrinkThumb + "'></div>";
 		});
 		$("#drinks-container").html(drinkCards.join(""));
 

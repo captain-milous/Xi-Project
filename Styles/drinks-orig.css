@@ -1,0 +1,33 @@
+/* CSS Document */
+#drinks-container {
+    border: solid 1px red;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#drinks-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+    transition: transform .2s;
+}
+
+.drink-card:hover {
+    transform: scale(1.1);
+    box-shadow: none;
+}
+
+.drink-card {
+    text-align: center;
+    border-radius: 15px;
+    background-color: darkgrey;
+    width: 400px;
+    box-shadow: 2px 5px 4px 5px #888888;
+}
+
+.drink-card img {
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+}
