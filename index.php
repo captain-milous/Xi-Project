@@ -15,11 +15,11 @@
 
       <header class="d-flex flex-wrap justify-content-center ">
         <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-          <span class="fs-4 text-white">Obchůdek</span>
+          <span class="fs-4 text-white">Milošův Bar</span>
         </a>
         <ul class="nav nav-pills">
           <li class="nav-item"><a href="index.php" class="nav-link px-2 text-secondary" aria-current="page">Hlavní stránka</a></li>
-          <li class="nav-item"><a href="about-us.php" class="nav-link px-2 text-white">O nás</a></li>
+          <li class="nav-item"><a href="drinks.php" class="nav-link px-2 text-white">MENU</a></li>
           <li class="nav-item"><a href="contact.php" class="nav-link px-2 text-white">Kontakt</a></li>
           <li class="nav-item" id="login"><a href="login.php" class="nav-link px-2 text-white">Přihlášení</a></li>
           <li class="nav-item" id="logout" style="display: none;"><a href="index.php" class="nav-link px-2 text-white">Odhlásit se</a></li>
