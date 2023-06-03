@@ -63,4 +63,12 @@ function isLoggedIn()
         return false;
     }
 }
+
+function err_log($log_string,$type,$komentar = null){
+    $file = fopen($_SERVER["DOCUMENT_ROOT"]."/Private/"."err-log.txt","a+");
+    $date = date('Y-m-d H:i:s');
+    fwrite($file,"#".$date." ; TYPE->".$type." ; LOG->".$log_string." ; KOMENTAR->".$komentar."\n");
+    fclose($file);
+}
+
 ?>

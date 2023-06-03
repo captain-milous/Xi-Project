@@ -15,51 +15,20 @@ session_start();
   
 </head>
 <body class="font-weight-bolder">
-<!-- Header -->
-  <div class="p-3 fixed-top text-bg-dark">
-    <div class="container">
+  <?php
+    include_once 'header.php';
+  ?>
 
-      <header class="d-flex flex-wrap justify-content-center ">
-        <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-          <span class="fs-4 text-white"><img src="images/white-logo.png" class="logo">Milošův Bar</span>
-        </a>
-        <ul class="nav nav-pills">
-          <li class="nav-item"><a href="index.php" class="nav-link px-2 text-secondary" aria-current="page">Hlavní stránka</a></li>
-          <li class="nav-item"><a href="drinks.php" class="nav-link px-2 text-white">MENU</a></li>
-          <li class="nav-item"><a href="contact.php" class="nav-link px-2 text-white">Kontakt</a></li>
-          <?php
-            if(isset($_SESSION["id"])){
-          ?>
-            <li class="nav-item" id="login"><a href="Scripts/logout.php" class="nav-link px-2 text-white">Odhlásit se</a></li>
-          <?php
-            } else {
-          ?>
-            <li class="nav-item" id="login"><a href="login.php" class="nav-link px-2 text-white">Přihlásit se</a></li>
-          <?php
-            }
-          ?>
-        </ul>
-      </header>
+<div style="margin: auto; text-align: center;">
 
-    </div>
-  </div>
-<br>
-<br>
+<h3> Náš super Barman Milouš</h3>
+<img src="Images/barman.jpg">
+<img src="Images/barman2.jpg">
 
+</div>
 
-
-
-<!-- Footer -->
-<br>
-<br>
-<br>
-<br>
-
-  <div class="fixed-bottom container-fluid p-1 bg-dark">
-    <footer class="my-4 align-items-center text-center">
-      <a href="https://github.com/captain-milous/Xi-Project" class="text-white em text-decoration-none">Copyright © Miloš Tesař C3b, 2023</a>
-    </footer>
-  </div>
-
+<?php
+    include_once 'footer.php';
+  ?>
 </body>
 </html>

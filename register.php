@@ -1,4 +1,14 @@
 <!doctype html>
+<?php
+  if(isset($_GET["mssg"])){
+    $oo = $_GET["mssg"];
+    ?>
+        <script defer>
+            alert("<?php echo $oo;?>");
+        </script>
+    <?php
+}
+?>
 <html lang="en">
 <head>
 
@@ -55,7 +65,7 @@
                   <input type="password" id="typePasswordX2" name="password2" class="form-control form-control" />
                   <label class="form-label" for="typePasswordX2">Heslo Znovu</label>
                 </div>
-                
+
                 <button class="btn btn-outline-light btn px-5" type="submit">Zaregistrovat se</button>
 
               </form>              

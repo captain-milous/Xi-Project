@@ -1,5 +1,15 @@
 <!doctype html>
 <html lang="">
+<?php
+  if(isset($_GET["mssg"])){
+    $oo = $_GET["mssg"];
+    ?>
+        <script defer>
+            alert("<?php echo $oo;?>");
+        </script>
+    <?php
+}
+?>
 <head>
 
   <meta charset="utf-8">
