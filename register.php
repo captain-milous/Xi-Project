@@ -24,39 +24,41 @@
               <h2 class="fw-bold mb-1 text-uppercase">Registrace</h2>
               <p class="text-white-50 mb-5">Pro registraci zadejte své údaje!</p>
 
-              <div class="row">
-                <div class="col-md-6 mb-4">
-                  <div class="form-outline">
-                    <input type="text" id="typeFirstNameX" class="form-control" />
-                    <label class="form-label" for="typeFirstNameX">Jméno</label>
+              <form action="Scripts\register.php" method="post">
+
+                <div class="row">
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" id="typeFirstNameX" name="fname" class="form-control" />
+                      <label class="form-label" for="typeFirstNameX">Jméno</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-4">
+                    <div class="form-outline">
+                      <input type="text" id="typeLastNameX" name="lname" class="form-control" />
+                      <label class="form-label" for="typeLastNameX">Příjmení</label>
+                    </div>
                   </div>
                 </div>
-                <div class="col-md-6 mb-4">
-                  <div class="form-outline">
-                    <input type="text" id="typeLastNameX" class="form-control" />
-                    <label class="form-label" for="typeLastNameX">Příjmení</label>
-                  </div>
+
+                <div class="form-outline form-white mb-2">
+                  <input type="email" id="typeEmailX" name="email" class="form-control form-control" />
+                  <label class="form-label" for="typeEmailX">Email</label>
                 </div>
-              </div>
 
-              <div class="form-outline form-white mb-2">
-                <input type="email" id="typeEmailX" class="form-control form-control" />
-                <label class="form-label" for="typeEmailX">Email</label>
-              </div>
+                <div class="form-outline form-white mb-2">
+                  <input type="password" id="typePasswordX" name="password1" class="form-control form-control" />
+                  <label class="form-label" for="typePasswordX">Heslo</label>
+                </div>
 
-              <div class="form-outline form-white mb-2">
-                <input type="password" id="typePasswordX" class="form-control form-control" />
-                <label class="form-label" for="typePasswordX">Heslo</label>
-              </div>
+                <div class="form-outline form-white mb-2">
+                  <input type="password" id="typePasswordX2" name="password2" class="form-control form-control" />
+                  <label class="form-label" for="typePasswordX2">Heslo Znovu</label>
+                </div>
+                
+                <button class="btn btn-outline-light btn px-5" type="submit">Zaregistrovat se</button>
 
-              <div class="form-outline form-white mb-2">
-                <input type="password" id="typePasswordX2" class="form-control form-control" />
-                <label class="form-label" for="typePasswordX2">Heslo Znovu</label>
-              </div>
-
-
-              <button class="btn btn-outline-light btn px-5" type="submit">Zaregistrovat se</button>
-              
+              </form>              
             </div>
 
             <div>

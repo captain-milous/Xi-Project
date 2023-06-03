@@ -24,21 +24,23 @@
               <h2 class="fw-bold mb-1 text-uppercase">Přihlášení</h2>
               <p class="text-white-50 mb-5">Zadejte své přihlašovací údaje pro přihlášení!</p>
 
-                <form action="login-successful.php" method="post">
-                <div class="form-outline form-white mb-2">
-                  <input type="email" id="typeEmailX" class="form-control form-control" />
-                  <label class="form-label" for="typeEmailX">Email</label>
-                </div>
+                <form action="Scripts/login.php" method="post">
 
-                <div class="form-outline form-white mb-2">
-                  <input type="password" id="typePasswordX" class="form-control form-control" />
-                  <label class="form-label" for="typePasswordX">Heslo</label>
-                </div>
+                  <div class="form-outline form-white mb-2">
+                    <input type="email" id="typeEmailX" name="email" class="form-control form-control" />
+                    <label class="form-label" for="typeEmailX">Email</label>
+                  </div>
 
-                <p class="small mb-3 pb-lg-2"><a class="text-white-50" href="#!">Zapomněli jste heslo?</a></p>
+                  <div class="form-outline form-white mb-2">
+                    <input type="password" id="typePasswordX" name="password" class="form-control form-control" />
+                    <label class="form-label" for="typePasswordX">Heslo</label>
+                  </div>
 
-                <button class="btn btn-outline-light btn px-5" type="submit">Přihlásit se</button>
-              </form>
+                  <p class="small mb-3 pb-lg-2"><a class="text-white-50" href="#!">Zapomněli jste heslo?</a></p>
+
+                  <button class="btn btn-outline-light btn px-5" type="submit">Přihlásit se</button>
+
+                </form>
             </div>
 
             <div>
