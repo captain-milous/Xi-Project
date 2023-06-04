@@ -2,7 +2,7 @@
 <?php
 session_start();
 if(!isset($_SESSION["id"])){
-  header('Location: /Xi-Project/?mssg=Nejsi prihlasen');
+  header('Location: /Xi-Project/');
   die;
 }
 ?>
