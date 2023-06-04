@@ -23,6 +23,7 @@
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="index.php" class="nav-link px-2 text-white">Hlavní stránka</a></li>
         <li class="nav-item"><a href="drinks.php" class="nav-link px-2 text-white">Drink Menu</a></li>
+        <li class="nav-item"><a href="reservation.php" class="nav-link px-2 text-white">Rezervace</a></li>
         <li class="nav-item"><a href="contact.php" class="nav-link px-2 text-white">Kontakt</a></li>
           <?php
             if(isset($_SESSION["id"])){
