@@ -37,8 +37,8 @@ session_start();
             <br>
             <br>
             <div class="d-grid gap-2 d-md-flex justify-content-center mb-4 mb-lg-3">
-              <button href="login.php" type="button" class="btn btn-primary btn-lg px-3 me-md-2 fw-bold">Přihlásit se</button>
-              <button href="register.php" type="button" class="btn btn-secondary btn-lg px-3 me-md-2 fw-bold">Zaregistrovat se</button>
+              <a href="login.php" type="button" class="btn btn-primary btn-lg px-3 me-md-2 fw-bold">Přihlásit se</a>
+              <a href="register.php" type="button" class="btn btn-secondary btn-lg px-3 me-md-2 fw-bold">Zaregistrovat se</a>
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ session_start();
         <div class="col-lg-12 p-3 p-lg-5 pt-lg-3">
 
         <div class="card flex-row">
-          <img class="card-img-left example-card-img-responsive" style="height: 400px; width: 400px;" src="Images/milos.jpg"/>
+          <img class="card-img-left example-card-img-responsive" style="height: 400px; width: 400px; border-radius: 5px; margin: 2px;" src="Images/milos.jpg"/>
           <div class="card-body">
             <br>
             <br>
@@ -93,7 +93,7 @@ session_start();
             <br>
             <p class="card-text">Šolim je ten, kdo se postará o to, abyste se v našem baru nikdy nenudili. Je neuvěřitelný showman a umí rozproudit atmosféru jakýmkoli netradičním způsobem. Jeho interakce s hosty a představení neobvyklých triků a vtipů jsou jeho specialitou. Věřte nám, s ním se nikdy nenudíte a budete se smát až do rána!</p>
           </div>
-          <img class="card-img-right example-card-img-responsive" style="height: 400px; width: 400px;" src="Images/solim.jpg"/>
+          <img class="card-img-right example-card-img-responsive" style="height: 400px; width: 400px; border-radius: 5px; margin: 2px;" src="Images/solim.jpg"/>
         </div>
 
         </div>
@@ -103,18 +103,24 @@ session_start();
     <div class="container my-4">
       <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg bg-light">
         <div class="col-lg-12 p-3 p-lg-5 pt-lg-3">
-          <h1 class="display-5 fw-bold mh-1">Přijďte a vstupte do našeho světa!</h1>
           <h1 class="display-5 fw-bold mh-1">Těšíme se na vaši návštěvu!</h1>
           <br>
           <br>
           <div class="d-grid gap-2 d-md-flex justify-content-center mb-4 mb-lg-3">
-            <button href="reservation.php" type="button" class="btn btn-primary btn-lg px-3 me-md-2 fw-bold">Rezervace stolu</button>
+            <a href="reservation.php" type="button" class="btn btn-primary btn-lg px-3 me-md-2 fw-bold">Rezervace stolu</a>
           </div>
         </div>
       </div>
     </div>
 
   </main>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <?php
   }
