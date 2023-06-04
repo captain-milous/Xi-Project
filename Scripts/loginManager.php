@@ -1,17 +1,13 @@
 <?php
 session_start();
-$servername = "127.0.0.1";
-$port = "3306";
-$DBusername = "SPSEJecna";
-$DBpassword = "Heslo1234";
-$dbname = "Xi_Project";
+include_once 'config.php';
 
 function SingletonConnection()
 {
-    global $servername, $port, $DBusername, $DBpassword, $dbname;
+    global $servername, $port, $DBusername, $DBpassword, $DBname;
     static $conn = null;
     if ($conn === null) {
-        $conn = new mysqli($servername, $DBusername, $DBpassword, $dbname, $port);
+        $conn = new mysqli($servername, $DBusername, $DBpassword, $DBname, $port);
     }
     return $conn;
 }
@@ -57,7 +53,7 @@ function logout()
 
 function isLoggedIn()
 {
-    if (isset($_SESSION['username'])) {
+    if (isset($_SESSION['email'])) {
         return true;
     } else {
         return false;

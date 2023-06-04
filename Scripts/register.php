@@ -1,4 +1,5 @@
 <?php
+
 require_once("loginManager.php");
 
 $email = $_POST['email'];
