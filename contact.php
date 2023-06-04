@@ -33,9 +33,14 @@ if(!isset($_SESSION["id"])){
           <h1 class="display-5 fw-bold lh-1">Kontakt</h1>
             <br>
             <div>
-              <p class="lead">Adresa: Bira Point Of View</p>
-              <p class="lead">Telefon: +420 123 456 789</p>
-              <p class="lead">Email: IncredibleComboTwins@info.cz</p>
+              <p class="lead"><strong>Adresa:</strong> Bira Point Of View</p>
+              <p class="lead"><strong>Telefon:</strong> +420 123 456 789</p>
+              <p class="lead"><strong>Email:</strong> IncredibleComboTwins@info.cz</p>
+              <br>
+              <p class="lead"><strong>Otevírací doba:</strong></p>
+              <p class="lead">Pondělí - Čtvrtek: 18:00 - 02:00</p>
+              <p class="lead">Pátek - Sobota: 16:00 - 04:00</p>
+              <p class="lead">Neděle a státní svátky: ZAVŘENO</p>
             </div>
             <br>
             <br>
